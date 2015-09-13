@@ -13,6 +13,7 @@
 		7538723C1BA590D8007DCA22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7538723B1BA590D8007DCA22 /* Images.xcassets */; };
 		7538723F1BA590D8007DCA22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7538723D1BA590D8007DCA22 /* LaunchScreen.xib */; };
 		7538724B1BA590D8007DCA22 /* OC_Prototype_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7538724A1BA590D8007DCA22 /* OC_Prototype_2Tests.swift */; };
+		755893041BA5C45A00F11DE0 /* OCActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755893031BA5C45A00F11DE0 /* OCActivityTableViewController.swift */; };
 		75EABB7E1BA5BEBB00806A18 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EABB7D1BA5BEBB00806A18 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		753872441BA590D8007DCA22 /* OC-Prototype-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-Prototype-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		753872491BA590D8007DCA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7538724A1BA590D8007DCA22 /* OC_Prototype_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OC_Prototype_2Tests.swift; sourceTree = "<group>"; };
+		755893031BA5C45A00F11DE0 /* OCActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCActivityTableViewController.swift; sourceTree = "<group>"; };
 		75EABB7D1BA5BEBB00806A18 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				753872341BA590D8007DCA22 /* AppDelegate.swift */,
 				753872361BA590D8007DCA22 /* ViewController.swift */,
 				753872381BA590D8007DCA22 /* Main.storyboard */,
+				755893031BA5C45A00F11DE0 /* OCActivityTableViewController.swift */,
 				75EABB7D1BA5BEBB00806A18 /* MainTableViewController.swift */,
 				7538723B1BA590D8007DCA22 /* Images.xcassets */,
 				7538723D1BA590D8007DCA22 /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755893041BA5C45A00F11DE0 /* OCActivityTableViewController.swift in Sources */,
 				753872371BA590D8007DCA22 /* ViewController.swift in Sources */,
 				75EABB7E1BA5BEBB00806A18 /* MainTableViewController.swift in Sources */,
 				753872351BA590D8007DCA22 /* AppDelegate.swift in Sources */,
