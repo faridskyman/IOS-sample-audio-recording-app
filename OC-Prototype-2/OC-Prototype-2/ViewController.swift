@@ -40,6 +40,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // for development, added auto login code
+        txtUserID.text = "f"
+        txtPassword.text = "p"
+        txtInstance.text = "i"
     }
 
     override func didReceiveMemoryWarning() {
